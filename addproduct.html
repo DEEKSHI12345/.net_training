@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            Kochi Shopping Mall
+            <div id="link">
+            <a href="Register.html">Home</a>
+            <a href="categorylist.html">Category List</a>
+            <a href="productlist.html">Product List</a>
+            <a href="addcategory.html">Add Category</a>
+            <a href="addproduct.html" target="active">Add Product</a>
+            <a href="login.html">Logout</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <h1>Add Product</h1>
+        <div id="form">
+        <form action="">
+            <label for="name">Name</label><br><br>
+            <input style="width:98%" type="text" name="name" id="name" required><br><br>
+            <label for="price">Price</label><br><br>
+            <input dtyle="width:98%" type="number" name="price" id="price" required><br><br>
+            <label for="category">Category</label><br><br>
+            <input style="width:98%" type="text" name="name" id="name" required><br><br>
+            <label for="date">Manufactured Date</label><br><br>
+            <input style="width:98%" type="date" name="date" id="date" required><br><br>
+            <label for="image">Image URL</label><br><br>
+            <input style="width:98%" type="url" name="image" id="image" pattern="https://.*" required><br><br>
+            <button id="addproduct">Add Product</button>
+        </form>
+        </div>
+    </section>
+</body>
+</html>
